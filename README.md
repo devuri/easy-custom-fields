@@ -9,6 +9,6 @@ this will load the input function, loading your functions this way aloows you to
 * loading more than one ecf
 ecf_load('ecf-input', 'ecf-post', 'ecf-clean-input');
 this will load all 3 helpers you can then use 
-** ecf_input('text', 'simtext', 'textname'); ** 
-** ecf_clean_input('InputName'); ** 
-** ecf_post('InputName'); ** 
+*ecf_input('text', 'simtext', 'textname'); 
+*ecf_clean_input('InputName'); 
+*ecf_post('InputName'); 

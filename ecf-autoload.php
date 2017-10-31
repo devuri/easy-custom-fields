@@ -51,5 +51,5 @@ ecf_load(){
 }
 
 // now load efc like so:
-ecf_load('input');
+ecf_load('ecf-input');
 

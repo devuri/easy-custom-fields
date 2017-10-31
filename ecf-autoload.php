@@ -43,3 +43,13 @@ function queue(){
 * @TODO
 * set file types
 *****************************************************************************************/
+
+//customized load for ecf
+ecf_load(){
+	$files = func_get_args();
+	queue('ecf', $files );	
+}
+
+// now load efc like so:
+ecf_load('input');
+

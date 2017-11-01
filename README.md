@@ -5,7 +5,7 @@ Simple Include the autoload file
 include_once(ecf-autoload.php);
 * Load fields 
 ecf_load('ecf-input');
-this will load the input function, loading your functions this way aloows you to only use what you need.
+this will load the input function, loading your functions this way allows you to only use what you need.
 * loading more than one ecf
 ecf_load('ecf-input', 'ecf-post', 'ecf-clean-input');
 this will load all 3 helpers you can then use 
